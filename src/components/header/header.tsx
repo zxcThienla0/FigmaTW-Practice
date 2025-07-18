@@ -18,7 +18,7 @@ export default function Header() {
             </nav>
             <div className="max-w-265 m-auto">
                 <h1 className="max-w-155 mt-44 text-5xl lato-bold">Discover Amazing places in Japan</h1>
-                <p className="mt-5.5 max-w-136.5 leading-6 text-[16px] lato-regular">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door </p>
+                <p className="mt-5.5 max-w-136.5 leading-6 text-[16px] lato-regular">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door. </p>
             </div>
             <div className="max-w-265 m-auto mt-15">
                 <form>
