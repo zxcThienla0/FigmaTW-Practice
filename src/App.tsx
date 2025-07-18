@@ -1,10 +1,15 @@
 import Header from "./components/header/header"
-function App() {
+import MainInfo from "./components/mainInfo/mailinfo"
+import PlacecComp from "./components/placecComp/placecComp"
 
+function App() {
   return (
     <>
     <Header/>
+    <MainInfo/>
+    <PlacecComp/>
     </>
+    
   )
 }
 
