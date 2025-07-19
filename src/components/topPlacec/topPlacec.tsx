@@ -1,6 +1,6 @@
 import { cardData } from "./cardData"
-import Like from "../../images/likes.svg"
-import Comments from "../../images/comments.svg"
+import Like from "../../images/likes.webp"
+import Comments from "../../images/comments.webp"
 
 import "./topPlacec.css"
 
@@ -16,11 +16,11 @@ export default function topPlacec() {
                             <img className="mb-11 object-cover h-94.25" src={card.image} alt={card.name} />
                             <div className="absolute left-0 top-81.25 w-full object-cover bg-[#15182499] py-3.5 px-6 flex justify-between items-center">
                                 <p>{card.name}</p>
-                                <div className="flex">
+                                <div className="flex items-center">
                                     <p className="pr-1">{card.like}</p>
-                                    <img src={Like} alt="Like" />
+                                    <img src={Like} alt="Like" className="w-3.5 h-3.5"/>
                                     <p className="pr-1 ml-3.5">{card.comments}</p>
-                                    <img src={Comments} alt="Comments" />
+                                    <img src={Comments} alt="Comments" className="w-3.5 h-3.5"/>
                                 </div>
                             </div>
                             <p className="text-[16px] text-black mb-7.75">{card.text}</p>

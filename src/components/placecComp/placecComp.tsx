@@ -1,10 +1,10 @@
 import AWhithArrow from "../supComponents/aWhithArrow"
 
-import MountFuji from "../../imagesCity/MountFujiIMG.svg"
-import Kyoto from "../../imagesCity/KyotoIMG.svg"
-import Tokyo from "../../imagesCity/TokyoIMG.svg"
-import Niigata from "../../imagesCity/NiigataIMG.svg"
-import Sapporo from "../../imagesCity/SapporoIMG.svg"
+import MountFuji from "../../imagesCity/MountFujiIMG.webp"
+import Kyoto from "../../imagesCity/KyotoIMG.webp"
+import Tokyo from "../../imagesCity/TokyoIMG.webp"
+import Niigata from "../../imagesCity/NiigataIMG.webp"
+import Sapporo from "../../imagesCity/SapporoIMG.webp"
 
 import './placecComp.css'
 

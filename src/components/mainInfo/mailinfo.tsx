@@ -1,6 +1,6 @@
-import Icon1 from "../../images/IconCastle.svg"
-import Icon2 from "../../images/IconPPL.svg"
-import Icon3 from "../../images/IconShop.svg"
+import Icon1 from "../../images/IconCastle.webp"
+import Icon2 from "../../images/IconPPL.webp"
+import Icon3 from "../../images/IconShop.webp"
 import AWhithArrow from "../supComponents/aWhithArrow"
 
 export default function MainInfo() {
@@ -12,19 +12,19 @@ export default function MainInfo() {
                 </h2>
                 <div className="pt-8 flex max-md:flex-col max-md:items-center  pb-28 justify-between">
                     <div className="sm:w-79.25">
-                        <img src={Icon1} alt="" className="mb-9" />
+                        <img src={Icon1} alt="" className="mb-9 w-16.5" />
                         <p className="text-[18px] mb-6.5">Welcome to Odigo!</p>
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
                         <AWhithArrow text="LEARN MORE" />
                     </div>
                     <div className="sm:w-79.25 mt-0.5">
-                        <img src={Icon2} alt="" className="mb-9" />
+                        <img src={Icon2} alt="" className="mb-9 w-16.5" />
                         <p className="text-[18px] mb-6.5">Your Personal Japan Guide</p>
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
                         <AWhithArrow text="LEARN MORE" />
                     </div>
                     <div className="sm:w-79.25 mt-2.25">
-                        <img src={Icon3} alt="" className="mb-9" />
+                        <img src={Icon3} alt="" className="mb-9 w-16.5" />
                         <p className="text-[18px] mb-6.5">Promoting Local Businesses</p>
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
                         <AWhithArrow text="LEARN MORE" />

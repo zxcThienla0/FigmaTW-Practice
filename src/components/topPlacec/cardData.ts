@@ -1,9 +1,9 @@
-import Nagoya from "../../image4topPlacec/NagoyaTop.svg"
-import Niigata from "../../image4topPlacec/NiigataTop.svg"
-import Osaka from "../../image4topPlacec/OsakaTop.svg"
-import Saitama from "../../image4topPlacec/SaitamaTop.svg"
-import Shibuya from "../../image4topPlacec/ShibuyaTop.svg"
-import Ueno from "../../image4topPlacec/UenoTop.svg"
+import Nagoya from "../../image4topPlacec/NagoyaTOP.webp"
+import Niigata from "../../image4topPlacec/NiigataTOP.webp"
+import Osaka from "../../image4topPlacec/OsakaTOP.webp"
+import Saitama from "../../image4topPlacec/SaitamaTOP.webp"
+import Shibuya from "../../image4topPlacec/ShibuyaTOP.webp"
+import Ueno from "../../image4topPlacec/UenoTOP.webp"
 
 export interface NewsProps {
     id: number

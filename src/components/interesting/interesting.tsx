@@ -1,5 +1,5 @@
-import Tottori from "../../imagesCity/tottoriInteresting.svg"
-import Kyoto from "../../imagesCity/kyotoInteresting.svg"
+import Tottori from "../../imagesCity/tottoriInteresting.webp"
+import Kyoto from "../../imagesCity/kyotoInteresting.webp"
 import AWhithArrow from "../supComponents/aWhithArrow"
 
 export default function interesting() {

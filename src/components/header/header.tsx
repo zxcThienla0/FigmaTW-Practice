@@ -1,13 +1,13 @@
-import logo from "../../images/odigo-logo.svg"
+import logo from "../../images/odigo-Logo.webp"
 
 export default function Header() {
 
     return (
         <header
-            className="bg-[url(./images/Hero.svg)] bg-no-repeat bg-center bg-cover sm:h-screen sm:min-h-100vh h-170 px-4">
+            className="bg-[url(./images/Hero.webp)] bg-no-repeat bg-center bg-cover sm:h-screen sm:min-h-100vh h-170 px-4">
             <nav className="max-w-265 m-auto lato-regular sm:flex justify-between pt-4 sm:pt-14">
                 <a href="" className=" flex justify-center">
-                    <img src={logo} alt="Logo" className="" />
+                    <img src={logo} alt="Logo" className="w-20.5" />
                 </a>
                 <div className="flex justify-between max-sm:mt-5">
                     <span className="sm:ml-20.5"><a href="">Articles</a></span>
@@ -26,7 +26,7 @@ export default function Header() {
                             <input
                                 type="text"
                                 name="user-like-to-do"
-                                className="bg-[url(./images/input-image.svg)] bg-no-repeat bg-[length:20px] bg-[position:left_calc(0%_+_8px)]
+                                className="bg-[url(./images/input-image.webp)] bg-no-repeat bg-[length:20px] bg-[position:left_calc(0%_+_8px)]
                                 border-b-2 border-b-[#BFC0C5] border-0
                                 w-74.25 pl-10.75 pb-5.5 sm:mr-15 mt-4
                                 outline-none
@@ -36,7 +36,7 @@ export default function Header() {
                             <input
                                 type="text"
                                 name="user-like-to-go"
-                                className="bg-[url(./images/input-image.svg)] bg-no-repeat bg-[length:20px] bg-[position:left_calc(0%_+_8px)]
+                                className="bg-[url(./images/input-image.webp)] bg-no-repeat bg-[length:20px] bg-[position:left_calc(0%_+_8px)]
                                 border-b-2 border-b-[#BFC0C5] border-0
                                 w-74.25 pl-10.75 pb-5.5 sm:mr-15 mt-4
                                 outline-none
