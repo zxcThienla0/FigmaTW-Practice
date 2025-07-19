@@ -10,15 +10,9 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-
     window.onload = () => {
       setLoading(false);
     };
-
-    return () => clearTimeout(timer);
   }, []);
   return (
     <>
