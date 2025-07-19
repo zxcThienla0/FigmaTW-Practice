@@ -4,23 +4,10 @@ import PlacecComp from "./components/placecComp/placecComp"
 import Interesting from "./components/interesting/interesting"
 import TopPlacec from "./components/topPlacec/topPlacec"
 
-import React, { useEffect, useState } from 'react';
 
-const App: React.FC = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    window.onload = () => {
-      setLoading(false);
-    };
-  }, []);
+const App = () => {
   return (
     <>
-      {loading && (
-        <div id="preloader" className="preloader">
-          <div className="spinner"></div>
-        </div>
-      )}
       <Header />
       <MainInfo />
       <PlacecComp />
