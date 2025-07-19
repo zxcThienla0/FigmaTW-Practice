@@ -1,0 +1,11 @@
+@media (max-width: 386px) {
+    .FixAdaptive {
+        width: auto;
+    }
+}
+
+@media (min-width: 386px) {
+    .FixAdaptive {
+        width: 386px;
+    }
+}

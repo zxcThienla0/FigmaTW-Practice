@@ -1,4 +1,5 @@
 import AWhithArrow from "../supComponents/aWhithArrow"
+
 import MountFuji from "../../imagesCity/MountFujiIMG.svg"
 import Kyoto from "../../imagesCity/KyotoIMG.svg"
 import Tokyo from "../../imagesCity/TokyoIMG.svg"
@@ -6,8 +7,6 @@ import Niigata from "../../imagesCity/NiigataIMG.svg"
 import Sapporo from "../../imagesCity/SapporoIMG.svg"
 
 import './placecComp.css'
-
-
 
 export default function placecComp() {
     return (
@@ -19,34 +18,39 @@ export default function placecComp() {
             <div className="w-63.5 h-0.75 bg-[#006DFE]"></div>
             <div className="mt-9 grid sm:grid-cols-6 gap-2.5">
                 <figure className="grid col-span-3 imageBG">
-                    <img src={MountFuji} alt="MountFuji" className="sm:h-88.5 h-70.75 object-cover w-full" />
+                    <img src={MountFuji} alt="MountFuji" className="sm:h-88.5 h-70.75 object-cover w-full transition" />
                     <figcaption className="text-[50px] z-10 absolute bottom-6.75 left-7.25">
                         Mount Fuji
                     </figcaption>
+                    <a href="!#" className="absolute top-0 left-0 w-full h-full z-40"></a>
                 </figure>
                 <figure className="grid col-span-3 imageBG">
-                    <img src={Kyoto} alt="MountFuji" className="sm:h-88.5 h-70.75 object-cover w-full" />
+                    <img src={Kyoto} alt="MountFuji" className="sm:h-88.5 h-70.75 object-cover w-full transition" />
                     <figcaption className="text-[50px] z-10 absolute bottom-6.75 left-7.25">
                         Kyoto
                     </figcaption>
+                    <a href="!#" className="absolute top-0 left-0 w-full h-full z-40"></a>
                 </figure>
                 <figure className="grid sm:col-span-2 col-span-3 imageBG">
-                    <img src={Tokyo} alt="MountFuji" className="h-70.75 object-cover w-full" />
+                    <img src={Tokyo} alt="MountFuji" className="h-70.75 object-cover w-full transition" />
                     <figcaption className="text-[50px] z-10 absolute bottom-6.75 left-7.25">
                         Tokyo
                     </figcaption>
+                    <a href="!#" className="absolute top-0 left-0 w-full h-full z-40"></a>
                 </figure>
                 <figure className="grid sm:col-span-2 col-span-3 imageBG">
-                    <img src={Niigata} alt="MountFuji" className="h-70.75 object-cover w-full" />
+                    <img src={Niigata} alt="MountFuji" className="h-70.75 object-cover w-full transition" />
                     <figcaption className="text-[50px] z-10 absolute bottom-6.75 left-7.25">
                         Niigata
                     </figcaption>
+                    <a href="!#" className="absolute top-0 left-0 w-full h-full z-40"></a>
                 </figure>
                 <figure className="grid sm:col-span-2 col-span-3 imageBG">
-                    <img src={Sapporo} alt="MountFuji" className="h-70.75 object-cover w-full" />
+                    <img src={Sapporo} alt="MountFuji" className="h-70.75 object-cover w-full transition" />
                     <figcaption className="text-[50px] z-10 absolute bottom-6.75 left-7.25">
                         Sapporo
                     </figcaption>
+                    <a href="!#" className="absolute top-0 left-0 w-full h-full z-40"></a>
                 </figure>
                 <div></div>
             </div>

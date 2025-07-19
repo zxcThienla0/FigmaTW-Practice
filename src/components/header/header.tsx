@@ -28,7 +28,7 @@ export default function Header() {
                                 name="user-like-to-do"
                                 className="bg-[url(./images/input-image.svg)] bg-no-repeat bg-[length:20px] bg-[position:left_calc(0%_+_8px)]
                                 border-b-2 border-b-[#BFC0C5] border-0
-                                w-74.25 pl-10.75 pb-5.5 sm:mr-15
+                                w-74.25 pl-10.75 pb-5.5 sm:mr-15 mt-4
                                 outline-none
                                 placeholder:text-[18px] placeholder:font-medium placeholder:text-white"
                                 placeholder="What would you like to do?" />
