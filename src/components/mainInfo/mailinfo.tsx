@@ -1,6 +1,6 @@
-import Icon1 from "../../images/IconCastle.webp"
-import Icon2 from "../../images/IconPPL.webp"
-import Icon3 from "../../images/IconShop.webp"
+import Icon1 from "../../images/IconCastle.png"
+import Icon2 from "../../images/IconPPL.png"
+import Icon3 from "../../images/IconShop.png"
 import AWhithArrow from "../supComponents/aWhithArrow"
 
 export default function MainInfo() {
@@ -17,13 +17,13 @@ export default function MainInfo() {
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
                         <AWhithArrow text="LEARN MORE" />
                     </div>
-                    <div className="sm:w-79.25 mt-0.5">
+                    <div className="sm:w-79.25 ">
                         <img src={Icon2} alt="" className="mb-9 w-16.5" />
                         <p className="text-[18px] mb-6.5">Your Personal Japan Guide</p>
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>
                         <AWhithArrow text="LEARN MORE" />
                     </div>
-                    <div className="sm:w-79.25 mt-2.25">
+                    <div className="sm:w-79.25 ">
                         <img src={Icon3} alt="" className="mb-9 w-16.5" />
                         <p className="text-[18px] mb-6.5">Promoting Local Businesses</p>
                         <p className="text-[16px]/[24px] mb-10.75">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.</p>

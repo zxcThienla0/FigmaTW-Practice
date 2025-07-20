@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header
-            className="bg-[url(./images/Hero.webp)] bg-no-repeat bg-center bg-cover sm:h-screen sm:min-h-100vh h-170 px-4">
+            className="bg-[url(./images/Hero.webp)] bg-no-repeat bg-center bg-cover sm:h-screen sm:min-h-100vh h-170 px-4 mb-15">
             <nav className="max-w-265 m-auto lato-regular sm:flex justify-between pt-4 sm:pt-14">
                 <a href="" className=" flex justify-center">
                     <img src={logo} alt="Logo" className="w-20.5" />
