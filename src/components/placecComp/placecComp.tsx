@@ -10,7 +10,7 @@ import './placecComp.css'
 
 export default function placecComp() {
     return (
-        <section className="mt-32.75 max-w-316 m-auto lato-regular max-sm:px-4">
+        <section className="mt-32.75 max-w-316 m-auto lato-regular max-[1440px]:px-4">
             <div className="flex justify-between items-center">
                 <p className="text-[35px] text-black ">Get inspired for your next trip</p>
                 <AWhithArrow text="LEARN MORE" />
