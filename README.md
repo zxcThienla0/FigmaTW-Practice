@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+# 🎨 Figma-to-Tailwind Practice  
+**Pixel-perfect responsive layout built from a Figma design using React 19 + Tailwind CSS**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-19.1-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.1-38B2AC?style=for-the-badge&logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/Vite-7.0-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript" />
+</div>
 
-Currently, two official plugins are available:
+> 🎯 **This project is a strict pixel-perfect implementation of a Figma mockup** — focused on mastering layout accuracy, spacing, typography, and responsive behavior using only Tailwind CSS and modern React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📐 О проекте
 
-## Expanding the ESLint configuration
+Цель — максимально точно воссоздать макет из **Figma** в коде, соблюдая:
+- Точные отступы, размеры и позиционирование
+- Идентичную типографику (шрифты, вес, размеры, line-height)
+- Цвета по дизайн-системе (HEX/RGB как в макете)
+- Адаптивное поведение на всех breakpoints
+- Отсутствие кастомного CSS — только классы Tailwind
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Проект не содержит логики, форм или API — это **чистая верстка**, демонстрирующая внимание к деталям и умение работать с дизайнерскими макетами.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Быстрый запуск
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/zxcThienla0/FigmaTW-Practice.git  
+cd FigmaTW-Practice  
+npm install  
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+➡️ Приложение доступно на: http://localhost:5173
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+> 💡 Проект полностью статический — никакого бэкенда, состояний или маршрутизации.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+## 🛠 Технологический стек
+
+- **Framework**: React 19 (без сложной логики — только компоненты)  
+- **Styling**: Tailwind CSS v4.1 (с использованием `@tailwindcss/vite`)  
+- **Build**: Vite 7.0 — мгновенная сборка и HMR  
+- **Typing**: TypeScript 5.8 — строгая типизация компонентов  
+- **Linting**: ESLint + React Hooks Rules — чистый, соответствующий best practices код  
+- **Deploy**: GitHub Pages через `gh-pages`
+
+## ✅ Что отработано
+
+- Конвертация Figma-макета в HTML-структуру  
+- Использование `flex`, `grid`, `gap`, `padding`, `margin` для точного позиционирования  
+- Работа с цветами, тенями, границами и радиусами  
+- Адаптивность через `sm:`, `md:`, `lg:` префиксы  
+- Подключение шрифтов (если есть в макете)  
+- Pixel-perfect проверка через DevTools / Figma Mirror
+
+## 📞 Контакты
+
+Telegram: @Thienla0o0
+
+Email: sburcalev@gmail.com
+
+GitHub: zxcThienla0
